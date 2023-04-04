@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>books</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/bootstrap.min.css" integrity="sha384-ggOyROiXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJtQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v.5.7.2/css/all.css" integrity="sha384-fnmOCqbT1WI1j8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvlbHG9Sr" crossorigin="anonymous"/>
+<link rel="stylesheet" href="../style/style.css">
+<link rel="stylesheet" href="../style/mobile.css">
+</head>
+<body>
+<div class="full-page">
+    <div class="sub-page">
+        <div class="navigation-bar">
+            <div class="logo">
+                <a href='photography.html'>MONEY MAKING MACHINE</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>Photos</a></li>
+                    <li><a href='#'>Services</a></li>
+                    <li><a href='#'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="form-box">
+                    <div class="form">
+                        <form class="login-form">
+                            <h1 class="main-heading">Login Form</h1>
+                            <input type="text"placeholder="user name"/>
+                            <input type="password"placeholder="password"/>
+                            <button>LOGIN</button>
+                            <p class="message">Not Registered? <a href="#">Register</a></p>
+                        </form>
+                        <form class="register-form">
+                            <h1 class="main-heading">Register Form</h1>
+                            <input type="text" placeholder="email-id"/>
+                            <input type="password" placeholder="password"/>
+                            <button>REGISTER</button>
+                            <p class="message">Already Registered?<a href="#">Login</a>
+                            </p>
+                        </form>
+                     </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <p class='defination'>Login and Registration Form Using<br> HTML,CSS And Javascript For More<br>Videos Please Subscribe<br>-----MMM</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+</script>
+<script>
+    $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+</script>
+</body>
+</html>
